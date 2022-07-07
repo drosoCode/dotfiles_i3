@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dunstctl set-paused true
+i3lock-fancy -n -g -f DejaVu-Sans -t Locked
+dunstctl set-paused false
