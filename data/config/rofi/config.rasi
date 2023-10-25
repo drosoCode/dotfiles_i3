@@ -1,0 +1,13 @@
+configuration {
+  font:               "Fira Code 20";
+  modi:               "drun,p:rofi-power-menu,calc,filebrowser";
+  combi-modes:        "drun,p";
+
+  location:           6;
+  yoffset:            -400;
+
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
+
+@import "theme.rasi"

@@ -1,0 +1,9 @@
+mpd_host = "127.0.01"
+mpd_port = "6600"
+mpd_music_dir = "~/Music"
+
+visualizer_data_source = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_in_stereo = "yes"
+visualizer_type = "wave_filled"
+visualizer_look = "◆▋"

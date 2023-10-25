@@ -1,0 +1,26 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "Fira Code, MesloLGS NF",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "redhat.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "disable-linters": ["resource-limits"],
+        "vscode-kubernetes.helm-path.linux": "/home/thomas/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path.linux": "/home/thomas/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.minikube-show-information-expiration": "2024-01-21T13:43:49.260Z",
+        "vs-kubernetes.crd-code-completion": "enabled"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "cSpell.enabled": false,
+    "arduino.useArduinoCli": true
+}

@@ -1,0 +1,9 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+GTK_THEME=Adwaita:dark
+QT_STYLE_OVERRIDE="Adwaita-Dark"
+KODI_AE_SINK=PULSEAUDIO
+
