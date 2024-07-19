@@ -1,8 +1,8 @@
 bufbuild.vscode-buf
-DavidAnson.vscode-markdownlint
+davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
 donjayamanne.githistory
-EditorConfig.EditorConfig
+editorconfig.editorconfig
 esbenp.prettier-vscode
 fredwangwang.vscode-hcl-format
 fwcd.kotlin
@@ -14,6 +14,7 @@ mindaro-dev.file-downloader
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.black-formatter
+ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
@@ -33,7 +34,7 @@ ms-vscode.remote-explorer
 ms-vscode.vscode-serial-monitor
 ms-vscode.vscode-typescript-next
 octref.vetur
-PKief.material-icon-theme
+pkief.material-icon-theme
 redhat.vscode-yaml
 streetsidesoftware.code-spell-checker
 svelte.svelte-vscode
