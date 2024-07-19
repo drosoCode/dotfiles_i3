@@ -26,6 +26,8 @@ files = [
             "ncmpcpp/config",
             "picom/picom.conf",
             "rofi/",
+            "deckmaster/",
+            "spicetify/config-xpui.ini"
         ],
     ],
     [
@@ -62,7 +64,8 @@ def backup_pkg():
 
 def install_pkg():
     with open("./packages", "r") as f:
-        pkgs = " ".join(f.readlines())
+        pkgs = " ".join(f.readlines()).replace("\n", "")
+        print(pkgs)
         exec(f"yay -Syu {pkgs}")
 
 def br_files(cfg, backup=True):
@@ -76,7 +79,7 @@ def br_files(cfg, backup=True):
                 os.makedirs(os.path.dirname(to_path))
             #  -v --info=progress2
             exec(
-                f"rsync -a --delete {from_path} {to_path}"
+                f"rsync -a --delete --mkpath {from_path} {to_path}"
             )
 
 def check_secrets(path):
