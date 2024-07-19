@@ -1,0 +1,163 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/back.png"
+      label = "Back"
+  [keys.action]
+    deck = "main.deck"
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/skp.png"
+      label = "Open"
+      fontsize = 8
+  [keys.action]
+    keycode = "LeftCtrl"
+
+[[keys]]
+  index = 2
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/square.png"
+      label = "Rect"
+      fontsize = 8
+  [keys.action]
+    keycode = "R"
+
+[[keys]]
+  index = 3
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/pull.png"
+      label = "Pull"
+      fontsize = 8
+  [keys.action]
+    keycode = "P"
+
+[[keys]]
+  index = 4
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/circle.png"
+      label = "Circle"
+      fontsize = 8
+  [keys.action]
+    keycode = "C"
+
+[[keys]]
+  index = 5
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/resize.png"
+      label = "Scale"
+      fontsize = 8
+  [keys.action]
+    keycode = "S"
+
+[[keys]]
+  index = 6
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/cursor.png"
+      label = "Select"
+      fontsize = 8
+  [keys.action]
+    keycode = "Space"
+
+[[keys]]
+  index = 7
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/erase.png"
+      label = "Erase"
+      fontsize = 8
+  [keys.action]
+    keycode = "E"
+
+[[keys]]
+  index = 8
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/turn.png"
+      label = "Orbit"
+      fontsize = 8
+  [keys.action]
+    keycode = "O"
+
+[[keys]]
+  index = 9
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/pen.png"
+      label = "Line"
+      fontsize = 8
+  [keys.action]
+    keycode = "L"
+
+[[keys]]
+  index = 10
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/move.png"
+      label = "Move"
+      fontsize = 8
+  [keys.action]
+    keycode = "M"
+
+[[keys]]
+  index = 11
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/export.png"
+      label = "STL"
+      fontsize = 8
+  [keys.action]
+    keycode = "LeftCtrl"
+
+[[keys]]
+  index = 12
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/arc.png"
+      label = "Arc"
+      fontsize = 8
+  [keys.action]
+    keycode = "A"
+
+[[keys]]
+  index = 13
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/rotate.png"
+      label = "Rotate"
+      fontsize = 8
+  [keys.action]
+    keycode = "Q"
+
+[[keys]]
+  index = 14
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/sketchup/skp.png"
+      label = "Measure"
+      fontsize = 8
+  [keys.action]
+    keycode = "T"

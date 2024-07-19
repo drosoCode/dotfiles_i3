@@ -1,0 +1,9 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/back.png"
+      label = "Back"
+  [keys.action]
+    deck = "main.deck"

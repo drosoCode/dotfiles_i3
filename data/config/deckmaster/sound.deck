@@ -1,0 +1,157 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/back.png"
+  [keys.action]
+    deck = "main.deck"
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/headphones.png"
+      label = "Headset"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/output.sh headphones"
+
+[[keys]]
+  index = 2
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/vol_up.png"
+      label = "Speakers"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/output.sh lineout"
+
+
+[[keys]]
+  index = 3
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      label = "Mic Mute"
+      icon = "assets/common/mic.png"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/mic.sh"
+
+[[keys]]
+  index = 4
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/vol_off.png"
+      label = "Mute"
+  [keys.action]
+    keycode = "Mute"
+
+[[keys]]
+  index = 14
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/vol_down.png"
+      label = "Master Vol -"
+  [keys.action]
+    keycode = "VolumeDown"
+
+[[keys]]
+  index = 9
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/vol_up.png"
+      label = "Master Vol +"
+  [keys.action]
+    keycode = "VolumeUp"
+
+
+[[keys]]
+  index = 5
+  [keys.widget]
+    id = "command"
+  [keys.widget.config]
+    command = "/home/thomas/.config/deckmaster/scripts/app_volume.sh 1"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selected_vol_app 1"
+  [keys.action_hold]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh / 1"
+
+[[keys]]
+  index = 6
+  [keys.widget]
+    id = "command"
+  [keys.widget.config]
+    command = "/home/thomas/.config/deckmaster/scripts/app_volume.sh 2"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selected_vol_app 2"
+  [keys.action_hold]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh / 2"
+
+[[keys]]
+  index = 7
+  [keys.widget]
+    id = "command"
+  [keys.widget.config]
+    command = "/home/thomas/.config/deckmaster/scripts/app_volume.sh 3"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selected_vol_app 3"
+  [keys.action_hold]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh / 3"
+
+[[keys]]
+  index = 10
+  [keys.widget]
+    id = "command"
+  [keys.widget.config]
+    command = "/home/thomas/.config/deckmaster/scripts/app_volume.sh 4"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selected_vol_app 4"
+  [keys.action_hold]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh / 4"
+
+[[keys]]
+  index = 11
+  [keys.widget]
+    id = "command"
+  [keys.widget.config]
+    command = "/home/thomas/.config/deckmaster/scripts/app_volume.sh 5"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selected_vol_app 5"
+  [keys.action_hold]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh / 5"
+
+[[keys]]
+  index = 12
+  [keys.widget]
+    id = "command"
+  [keys.widget.config]
+    command = "/home/thomas/.config/deckmaster/scripts/app_volume.sh 6"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selected_vol_app 6"
+  [keys.action_hold]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh / 6"
+
+
+[[keys]]
+  index = 8
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      label = "App Vol +"
+      icon = "assets/common/vol_up.png"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh +2"
+
+[[keys]]
+  index = 13
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      label = "App Vol -"
+      icon = "assets/common/vol_down.png"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh -2"

@@ -1,7 +1,7 @@
 [theme]
 theme = "solarized-dark"
 [theme.overrides]
-separator = "<span font='13'></span>"
+separator = "<span font='16'></span>"
 
 [icons]
 icons = "material-nf"
@@ -9,17 +9,22 @@ icons = "material-nf"
 
 [[block]]
 block = "music"
-format = " $icon {$combo.str(max_w:15,rot_interval:0.5) $play  $next |}"
+format = " $icon {$combo.str(max_w:25,rot_interval:0.5) $play  $next |}"
 
 [[block]]
 block = "weather"
 format = " $icon $weather"
-service = { name = "openweathermap", api_key = "xxxx", city_id = "2988507", units = "metric" }
+service = { name = "openweathermap", api_key = "xxxxxxxx", city_id = "2988507", units = "metric" }
 
-#[[block]]
-#block = "docker"
-#interval = 2
-#format = " $icon $running/$total "
+[[block]]
+block = "docker"
+interval = 2
+format = " $icon $running/$total "
+
+[[block]]
+block = "nvidia_gpu"
+interval = 1
+format = " $icon RTX 2070 $utilization $power $temperature $fan_speed "
 
 [[block]]
 block = "memory"
@@ -68,9 +73,6 @@ idle_fg = { link = "info_fg" }
 block = "time"
 interval = 5
 format = " $icon $timestamp.datetime(f:'%H:%M %d/%m') "
-
-[[block]]
-block = "battery"
 
 [[block]]
 block = "notify"

@@ -1,0 +1,19 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/back.png"
+      label = "Back"
+  [keys.action]
+    deck = "main.deck"
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/tools/sketchup.png"
+      label = "Sketchup"
+  [keys.action]
+    deck = "sketchup.deck"

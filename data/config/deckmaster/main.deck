@@ -1,0 +1,140 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "top"
+    [keys.widget.config]
+      mode = "cpu"
+      fillColor = "#d497de"
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id = "top"
+    [keys.widget.config]
+      mode = "memory"
+
+[[keys]]
+  index = 2
+  [keys.widget]
+    id = "time"
+    [keys.widget.config]
+      format = "%H;%i;%s"
+      font = "bold;regular;thin"
+
+[[keys]]
+  index = 3
+  [keys.widget]
+    id = "time"
+    [keys.widget.config]
+      format = "%l;%d;%M"
+      font = "regular;bold;regular"
+
+[[keys]]
+  index = 4
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/lock.png"
+      #label = "Lock"
+      fontsize = 8
+  [keys.action]
+    exec = "~/.config/i3/scripts/lock"
+
+[[keys]]
+  index = 5
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/icon.png"
+      #label = "Apps"
+  [keys.action]
+    deck = "brightness.deck"
+
+[[keys]]
+  index = 6
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/music.png"
+      #label = "Apps"
+  [keys.action]
+    deck = "sound.deck"
+
+[[keys]]
+  index = 7
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/dev.png"
+      #label = "Dev"
+  [keys.action]
+    deck = "dev.deck"
+
+[[keys]]
+  index = 8
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/office.png"
+      #label = "Apps"
+  [keys.action]
+    deck = "tools.deck"
+
+[[keys]]
+    index = 9
+    [keys.widget]
+        id = "weather"
+        [keys.widget.config]
+            location = "paris"
+            unit = "celsius"
+            color = "#fefefe"
+            flatten = true
+            theme = "openmoji"
+
+[[keys]]
+  index = 11
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/game.png"
+      #label = "Game"
+  [keys.action]
+    deck = "game.deck"
+
+[[keys]]
+  index = 10
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/apps.png"
+      #label = "Apps"
+  [keys.action]
+    deck = "apps.deck"
+
+[[keys]]
+  index = 12
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/prev.png"
+  [keys.action]
+    exec = "playerctl previous"
+
+
+[[keys]]
+  index = 13
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/play.png"
+  [keys.action]
+    exec = "playerctl play-pause"
+
+[[keys]]
+  index = 14
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/next.png"
+  [keys.action]
+    exec = "playerctl next"

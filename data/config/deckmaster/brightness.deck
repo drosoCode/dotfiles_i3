@@ -1,0 +1,136 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/common/back.png"
+  [keys.action]
+    deck = "main.deck"
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/1.png"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selectedscreen 1"
+
+[[keys]]
+  index = 2
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/2.png"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/echoto.sh /home/thomas/.config/deckmaster/scripts/data/selectedscreen 2"
+
+[[keys]]
+  index = 4
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "0"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 0"
+
+[[keys]]
+  index = 5
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "10"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 10"
+
+[[keys]]
+  index = 6
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "20"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 20"
+
+[[keys]]
+  index = 7
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "30"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 30"
+
+[[keys]]
+  index = 8
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "40"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 40"
+
+[[keys]]
+  index = 9
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "50"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 50"
+
+[[keys]]
+  index = 10
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "60"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 60"
+
+[[keys]]
+  index = 11
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "70"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 70"
+
+[[keys]]
+  index = 12
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "80"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 80"
+
+[[keys]]
+  index = 13
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "90"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 90"
+
+[[keys]]
+  index = 14
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/screens/color.png"
+      label = "100"
+  [keys.action]
+    exec = "/home/thomas/.config/deckmaster/scripts/bright.sh 100"
