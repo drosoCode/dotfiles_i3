@@ -3,7 +3,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/back.png"
+      icon = "assets/back.png"
       label = "Back"
   [keys.action]
     deck = "main.deck"

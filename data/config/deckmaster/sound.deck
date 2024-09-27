@@ -3,7 +3,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/back.png"
+      icon = "assets/back.png"
   [keys.action]
     deck = "main.deck"
 
@@ -12,7 +12,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/headphones.png"
+      icon = "assets/headphones.png"
       label = "Headset"
   [keys.action]
     exec = "/home/thomas/.config/deckmaster/scripts/output.sh headphones"
@@ -22,7 +22,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/vol_up.png"
+      icon = "assets/vol_up.png"
       label = "Speakers"
   [keys.action]
     exec = "/home/thomas/.config/deckmaster/scripts/output.sh lineout"
@@ -34,7 +34,7 @@
     id = "button"
     [keys.widget.config]
       label = "Mic Mute"
-      icon = "assets/common/mic.png"
+      icon = "assets/mic.png"
   [keys.action]
     exec = "/home/thomas/.config/deckmaster/scripts/mic.sh"
 
@@ -43,7 +43,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/vol_off.png"
+      icon = "assets/vol_off.png"
       label = "Mute"
   [keys.action]
     keycode = "Mute"
@@ -53,7 +53,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/vol_down.png"
+      icon = "assets/vol_down.png"
       label = "Master Vol -"
   [keys.action]
     keycode = "VolumeDown"
@@ -63,7 +63,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/vol_up.png"
+      icon = "assets/vol_up.png"
       label = "Master Vol +"
   [keys.action]
     keycode = "VolumeUp"
@@ -142,7 +142,7 @@
     id = "button"
     [keys.widget.config]
       label = "App Vol +"
-      icon = "assets/common/vol_up.png"
+      icon = "assets/vol_up.png"
   [keys.action]
     exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh +2"
 
@@ -152,6 +152,6 @@
     id = "button"
     [keys.widget.config]
       label = "App Vol -"
-      icon = "assets/common/vol_down.png"
+      icon = "assets/vol_down.png"
   [keys.action]
     exec = "/home/thomas/.config/deckmaster/scripts/set_volume.sh -2"

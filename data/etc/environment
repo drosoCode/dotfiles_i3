@@ -7,3 +7,8 @@ GTK_THEME=Adwaita:dark
 QT_STYLE_OVERRIDE="Adwaita-Dark"
 KODI_AE_SINK=PIPEWIRE
 SHELL=fish
+
+# https://wiki.archlinux.org/title/NVIDIA/Troubleshooting#Extreme_lag_on_Xorg
+CLUTTER_DEFAULT_FPS=164
+__GL_SYNC_DISPLAY_DEVICE=DP-4
+

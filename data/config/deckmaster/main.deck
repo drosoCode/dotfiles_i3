@@ -34,7 +34,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/lock.png"
+      icon = "assets/lock.png"
       #label = "Lock"
       fontsize = 8
   [keys.action]
@@ -45,7 +45,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/screens/icon.png"
+      icon = "assets/light_bg.png"
       #label = "Apps"
   [keys.action]
     deck = "brightness.deck"
@@ -55,7 +55,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/music.png"
+      icon = "assets/music.png"
       #label = "Apps"
   [keys.action]
     deck = "sound.deck"
@@ -65,7 +65,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/dev.png"
+      icon = "assets/dev.png"
       #label = "Dev"
   [keys.action]
     deck = "dev.deck"
@@ -75,7 +75,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/office.png"
+      icon = "assets/office.png"
       #label = "Apps"
   [keys.action]
     deck = "tools.deck"
@@ -96,7 +96,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/game.png"
+      icon = "assets/game.png"
       #label = "Game"
   [keys.action]
     deck = "game.deck"
@@ -106,7 +106,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/apps.png"
+      icon = "assets/apps.png"
       #label = "Apps"
   [keys.action]
     deck = "apps.deck"
@@ -116,7 +116,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/prev.png"
+      icon = "assets/prev.png"
   [keys.action]
     exec = "playerctl previous"
 
@@ -126,7 +126,7 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/play.png"
+      icon = "assets/play.png"
   [keys.action]
     exec = "playerctl play-pause"
 
@@ -135,6 +135,6 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/next.png"
+      icon = "assets/next.png"
   [keys.action]
     exec = "playerctl next"

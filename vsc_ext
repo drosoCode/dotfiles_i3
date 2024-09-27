@@ -35,13 +35,14 @@ ms-vscode.vscode-serial-monitor
 ms-vscode.vscode-typescript-next
 octref.vetur
 pkief.material-icon-theme
+platformio.platformio-ide
 redhat.vscode-yaml
 streetsidesoftware.code-spell-checker
 svelte.svelte-vscode
 syler.sass-indented
 tamasfe.even-better-toml
 twxs.cmake
-vsciot-vscode.vscode-arduino
+undefined_publisher.metal
 vscjava.vscode-gradle
 waderyan.gitblame
 weaveworks.vscode-gitops-tools

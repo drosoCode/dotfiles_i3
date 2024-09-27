@@ -9,6 +9,7 @@ alsa-utils
 android-studio
 android-tools
 arandr
+ardour
 arduino-cli
 base
 base-devel
@@ -56,6 +57,7 @@ glm
 gnome-themes-extra
 go
 gomuks
+gparted
 grub
 helm
 htop
@@ -89,6 +91,7 @@ maim
 man-db
 mariadb-clients
 mdns-scan
+mesa-utils
 minidlna
 mpc
 mpd
@@ -112,8 +115,12 @@ npm
 nss-mdns
 ntfs-3g
 numlockx
+nvidia-container-toolkit
 nvidia-open
+nvidia-settings
+nvtop
 ocrmypdf
+onefetch
 openldap
 openrgb
 os-prober
@@ -138,6 +145,7 @@ python-opencv
 python-pip
 qbittorrent
 qemu-desktop
+qpwgraph
 remmina
 rofi
 rofi-calc
@@ -156,6 +164,7 @@ sudo
 talosctl
 terraform
 thunderbird
+timeshift
 tree
 ttf-dejavu
 ttf-fira-code

@@ -3,7 +3,47 @@
   [keys.widget]
     id = "button"
     [keys.widget.config]
-      icon = "assets/common/back.png"
+      icon = "assets/back.png"
       label = "Back"
   [keys.action]
     deck = "main.deck"
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/windows.png"
+      label = "Start"
+  [keys.action]
+    exec = "virsh --connect qemu:///system start win10"
+
+[[keys]]
+  index = 2
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/bolt.png"
+      label = "Stop"
+  [keys.action]
+    exec = "virsh --connect qemu:///system shutdown win10"
+
+[[keys]]
+  index = 3
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/exclamation-circle.png"
+      label = "Kill"
+  [keys.action]
+    exec = "virsh --connect qemu:///system destroy win10"
+
+[[keys]]
+  index = 4
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "assets/exclamation-circle.png"
+      label = "Reboot Host"
+  [keys.action]
+    exec = "reboot"
